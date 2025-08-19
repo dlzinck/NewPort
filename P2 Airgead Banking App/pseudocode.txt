@@ -1,0 +1,34 @@
+BEGIN PROGRAM
+
+DISPLAY welcome message and instructions
+
+PROMPT user to enter
+    - Initial investment amount
+    - Monthly deposit amount
+    - Annual interest rate as percentage
+    - Number of years
+
+VALIDATE each input
+    - Must be a number
+    - Must be positive or greater than zero where required
+
+CREATE an instance of BankApp using the user's input
+
+DISPLAY header for report without monthly deposits
+CALL BankApp.printReportWithoutMonthlyDeposit()
+    FOR each year in investment period
+        COMPOUND interest monthly using only current balance
+        CALCULATE year-end balance and interest earned
+        DISPLAY year, balance, and interest
+
+DISPLAY header for report with monthly deposits
+CALL BankApp.printReportWithMonthlyDeposit()
+    FOR each year in investment period
+        FOR each month
+            CALCULATE interest on balance before deposit
+            ADD interest to balance
+            ADD monthly deposit
+        CALCULATE year-end balance and interest earned
+        DISPLAY year, balance, and interest
+
+END PROGRAM
