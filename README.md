@@ -54,3 +54,26 @@ While the programming concepts were familiar from my experience in JavaScript, P
 - Reflect on challenges and find solutions using documentation, problem decomposition, and prior programming knowledge.
 
 These projects represent important steps in building my portfolio and demonstrate transferable skills that apply across languages, projects, and professional software development.
+
+### CS-230 – Software Design Journal: *Draw It or Lose It*
+
+**Client Summary**  
+The Gaming Room wanted to expand its Android game *Draw It or Lose It* into a web-based, multi-platform application. The new system needed to support multiple teams and players, enforce unique names across all entities, and function consistently across Windows, macOS, Linux, and mobile devices.
+
+**What I Did Well**  
+I developed a clear and organized software design document that effectively described the system architecture, UML domain model, and technical reasoning behind design patterns such as the Singleton and inheritance. My explanations of scalability, portability, and distributed environments were particularly strong.
+
+**How the Design Document Helped Development**  
+Writing the design document before coding helped me plan a clean, maintainable structure. Mapping relationships between the classes early on made implementation smoother and ensured the system met requirements for uniqueness and scalability.
+
+**What I Would Revise**  
+If I were to revise the project, I would add a persistence and networking layer to demonstrate how data storage and client-server communication would work in a live environment. This would make the design more complete and production-ready.
+
+**Meeting User Needs**  
+I analyzed the client’s requirements—scalability, reliability, and multi-platform functionality—and built the design to satisfy each. Considering the user’s needs ensures that the software is functional, efficient, and user-friendly across all supported platforms.
+
+**Approach to Software Design**  
+I applied object-oriented principles, UML modeling, and modular planning throughout the project. In future work, I plan to continue using these strategies, starting with visual models and pseudocode before coding, to ensure clarity and efficiency in design.
+
+**Linked Document**  
+[CS 230 Project Software Design Document](./P4%20Draw%20It%20or%20Lose%20It/CS%20230%20Project%20Software%20Design.docx)
