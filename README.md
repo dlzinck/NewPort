@@ -1,16 +1,18 @@
 # NewPort  
-*A play on “New Portfolio” (and, yes, a nod to Newports) – my CS-210 project portfolio*
+*A play on “New Portfolio” (and, yes, a nod to Newports) – my computer science project portfolio*
 
 ## Table of Contents
-- [Project 1 – Clockering Time](./P1%20Clockering%20Time/)
-- [Project 2 – Airgead Banking App](./P2%20Airgead%20Banking%20App/)
-- [Project 3 – Grocery Tracking](./P3%20Grocery%20Tracking)
+- [CS-210 – Clockering Time](./CS-210/P1%20Clockering%20Time/)
+- [CS-230 – Airgead Banking App](./CS-230/P2%20Airgead%20Banking%20App/)
+- [CS-230 – Grocery Tracking](./CS-230/P3%20Grocery%20Tracking/)
+- [CS-230 – Draw It or Lose It](./CS-230/P4%20Draw%20It%20or%20Lose%20It/)
+- [CS-250 – Sprint Review and Retrospective](./CS-250/)
 
-## CS-210 Portfolio Projects
+## CS-210 & CS-230 Portfolio Projects
 
 This repository contains my projects from my time in CS-210: Programming Languages. Each project exhibits my ability to write safe, efficient, and maintainable code in C++. Although I came into the course with prior programming experience in JavaScript, Python, jQuery, and their libraries, working with C++ challenged me to approach familiar concepts in a lower level, strongly typed environment. This helped me increase my understanding of memory management, efficiency, and best practices in structured programming.
 
-### [Project 1 (P1) – Clockering Time](./P1%20Clockering%20Time/)
+### [Project 1 (P1) – Clockering Time](./CS-210/P1%20Clockering%20Time/)
 
 **Summary:**
 This project calculated and displayed time in both 12-hour and 24-hour formats while handling user input and formatting requirements.
@@ -21,7 +23,7 @@ This project calculated and displayed time in both 12-hour and 24-hour formats w
 - **Challenges:** Getting the time formatting correct without off-by-one errors took testing and debugging, but breaking the logic into smaller functions solved it.
 - **Transferable skills:** This reinforced the importance of modular design and formatting, which applies across all programming languages.
 
-### [Project 2 (P2) – Airgead Banking App](./P2%20Airgead%20Banking%20App/)
+### [Project 2 (P2) – Airgead Banking App](./CS-230/P2%20Airgead%20Banking%20App/)
 
 
 **Summary:**
@@ -33,8 +35,7 @@ This project simulated an investment calculator that showed how balances grow wi
 - **Challenges:** The compound interest formula was initially tricky, but I used my math background and pseudocode planning to make the implementation easier.
 - **Transferable skills:** I practiced writing financial logic that could be applied to real-world fintech applications.
 
-### [Project 3 (P3) – Grocery Tracking](./P3%20Grocery%20Tracking)
-
+### [Project 3 (P3) – Grocery Tracking](./CS-230/P3%20Grocery%20Tracking/)
 
 **Summary:**
 This project tracked grocery items and their frequencies, reading from an input file and writing frequency data to an output file. It also displayed results in a histogram.
@@ -76,4 +77,8 @@ I analyzed the client’s requirements—scalability, reliability, and multi-pla
 I applied object-oriented principles, UML modeling, and modular planning throughout the project. In future work, I plan to continue using these strategies, starting with visual models and pseudocode before coding, to ensure clarity and efficiency in design.
 
 **Linked Document**  
-[CS 230 Project Software Design Document](./P4%20Draw%20It%20or%20Lose%20It/CS%20230%20Project%20Software%20Design.docx)
+[CS 230 Project Software Design Document](./CS-230/P4%20Draw%20It%20or%20Lose%20It/CS%20230%20Project%20Software%20Design.docx)
+
+## CS-250: Software Development Lifecycle – [Sprint Review and Retrospective Reflection](./CS-250/Sprint%20Review%20and%20Retrospective.docx)
+
+This course taught me how to interpret user needs by translating high-level requirements into clear, testable user stories that focus on delivering user value. Learning how to write and refine user stories helped me keep development work aligned with stakeholder expectations and prevented scope confusion during development. The course also showed me how an Agile approach supports effective software development through iterative progress, frequent feedback, and adaptability using practices such as sprint planning, reviews, and retrospectives. Understanding these processes helped me see how teams can continuously improve while reducing risk and responding to change more effectively. Additionally, I learned that being a successful team member in software development requires open communication, respect for defined roles, consistent contribution, and flexibility when adapting to new information, all of which are essential for strong collaboration in Agile teams.
