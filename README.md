@@ -7,6 +7,7 @@
 - [CS-230 – Grocery Tracking](./CS-230/P3%20Grocery%20Tracking/)
 - [CS-230 – Draw It or Lose It](./CS-230/P4%20Draw%20It%20or%20Lose%20It/)
 - [CS-250 – Sprint Review and Retrospective](./CS-250/)
+- [CS-300 – DSA: Analysis and Design](./CS-300/)
 
 ## CS-210 & CS-230 Portfolio Projects
 
@@ -82,3 +83,15 @@ I applied object-oriented principles, UML modeling, and modular planning through
 ## CS-250: Software Development Lifecycle – [Sprint Review and Retrospective Reflection](./CS-250/Sprint%20Review%20and%20Retrospective.docx)
 
 This course taught me how to interpret user needs by translating high-level requirements into clear, testable user stories that focus on delivering user value. Learning how to write and refine user stories helped me keep development work aligned with stakeholder expectations and prevented scope confusion during development. The course also showed me how an Agile approach supports effective software development through iterative progress, frequent feedback, and adaptability using practices such as sprint planning, reviews, and retrospectives. Understanding these processes helped me see how teams can continuously improve while reducing risk and responding to change more effectively. Additionally, I learned that being a successful team member in software development requires open communication, respect for defined roles, consistent contribution, and flexibility when adapting to new information, all of which are essential for strong collaboration in Agile teams.
+
+## CS-300: DSA – Analysis and Design
+
+This course focused on analyzing and designing efficient data structure solutions based on program requirements. I learned how evaluate vectors, hash tables, and binary search trees by comparing their runtime and memory characteristics to determine the most appropriate structure for a given problem.
+
+### CS-300 - Project One - [Runtime Memory Analysis](./CS-300/Project%20One/)
+
+In Project One, I ran a detailed runtime analysis comparing worst-case and average-case performance when loading and validating course data. Based on this evaluation, I recommended a Binary Search Tree to support efficient searching and natural alphanumeric ordering.
+
+### CS-300 - Project Two - [BST Course Catalog Implementation](./CS-300/Project%20Two/)
+
+In Project Two, I implemented a Binary Search Tree in C++ to load course data from a CSV file, print all courses in sorted alphanumeric order using in-order traversal, and display individual course information with prerequisites. This project reinforced my understanding of algorithmic efficiency, recursive traversal, and designing maintainable, structured programs.
