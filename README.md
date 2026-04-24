@@ -8,6 +8,7 @@
 - [CS-230 – Draw It or Lose It](./CS-230/P4%20Draw%20It%20or%20Lose%20It/)
 - [CS-250 – Sprint Review and Retrospective](./CS-250/)
 - [CS-300 – DSA: Analysis and Design](./CS-300/)
+- [CS-320 – Software Testing & QA](./CS-320/)
 
 ## CS-210 & CS-230 Portfolio Projects
 
@@ -95,3 +96,29 @@ In Project One, I ran a detailed runtime analysis comparing worst-case and avera
 ### CS-300 - Project Two - [BST Course Catalog Implementation](./CS-300/Project%20Two/)
 
 In Project Two, I implemented a Binary Search Tree in C++ to load course data from a CSV file, print all courses in sorted alphanumeric order using in-order traversal, and display individual course information with prerequisites. This project reinforced my understanding of algorithmic efficiency, recursive traversal, and designing maintainable, structured programs.
+
+## CS-320 – Software Testing & Quality Assurance
+
+This course focused on software testing, validation, and quality assurance using Java and JUnit. I learned how to develop multiple service-based applications and created automated unit tests to verify functionality, enforce requirements, and improve reliability.
+
+### Contact Service Project
+
+**Summary:**
+In this project, I created a Contact service that imposes strict validation rules for user data like ID, name, phone number, and address. The service makes sure that contact IDs remain unique and supports updating and deleting contact information safely.
+
+**Testing Approach:**
+I used JUnit to implement both positive and negative test cases. Positive tests confirmed that valid data worked correctly, while the negative tests made sure that invalid inputs, like null values, incorrect formats, or exceeding character limits, were rejected using exceptions.
+
+**What I Learned:**
+- How to write effective unit tests using JUnit
+- The importance of validating all inputs to prevent errors
+- How automated testing improves reliability and reduces bugs
+- How to align code and tests directly with software requirements
+
+### Project Two – Summary and Reflection
+
+[View Full Reflection](./CS-320/Project-Two-Reflection/Summary%20and%20Reflection.docx)
+
+### Overall Reflection
+
+Through this course, I learned how to make sure my software is both functional and secure by combining strong input validation with automated testing. I approached interpreting user needs by translating requirements into clear validation rules and test cases. When designing software, I focused on modular structure, separating data models from service logic, and ensuring that each component could be tested independently. These practices helped me build more reliable, maintainable, and professional-quality code.
