@@ -8,6 +8,7 @@
 - [CS-230 – Draw It or Lose It](./CS-230/P4%20Draw%20It%20or%20Lose%20It/)
 - [CS-250 – Sprint Review and Retrospective](./CS-250/)
 - [CS-300 – DSA: Analysis and Design](./CS-300/)
+- [CS-305 – Software Security](./CS-305/)
 - [CS-320 – Software Testing & QA](./CS-320/)
 
 ## CS-210 & CS-230 Portfolio Projects
@@ -96,6 +97,39 @@ In Project One, I ran a detailed runtime analysis comparing worst-case and avera
 ### CS-300 - Project Two - [BST Course Catalog Implementation](./CS-300/Project%20Two/)
 
 In Project Two, I implemented a Binary Search Tree in C++ to load course data from a CSV file, print all courses in sorted alphanumeric order using in-order traversal, and display individual course information with prerequisites. This project reinforced my understanding of algorithmic efficiency, recursive traversal, and designing maintainable, structured programs.
+
+## CS-305 – Software Security
+
+In this course I learned how to identify, analyze, and mitigate software security vulnerabilities using secure coding practices and industry tools. I worked with Java-based applications and applied security concepts like encryption, dependency management, and vulnerability scanning.
+
+### Project Two – Practices for Secure Software Report
+
+**Summary:**
+In this project, I was able to analyze and improve the security of a financial application for Artemis Financial. I implemented secure communication using HTTPS, applied SHA-256 hashing to protect data integrity, and used OWASP Dependency-Check to identify and address known vulnerabilities in third-party libraries. I also refactored the codebase to remove insecure practices and improve overall application security.
+
+**What I Did Well:** 
+I was able to successfully apply multiple layers of security, including encryption, dependency management, and secure coding practices. I also demonstrated my ability to use real-world tools like OWASP Dependency-Check to identify and resolve vulnerabilities.
+
+**Enhancements:**
+When I decide to improve this project further, I want to integrate continuous security scanning into a CI/CD pipeline and expand testing to include more edge cases and penetration-style testing.
+
+**Challenges:** 
+One of the biggest challenges was troubleshooting dependency-check errors related to external vulnerability databases and configuring the environment correctly. Working through these issues helped me better understand how security tools operate in real-world development environments.
+
+**Transferable Skills:**
+- Applying encryption (SHA-256) for data integrity 
+- Implementing HTTPS using self-signed certificates 
+- Identifying and mitigating vulnerabilities in dependencies 
+- Using automated security tools (OWASP Dependency-Check) 
+- Writing and refactoring secure Java code
+
+**Security Verification:**
+After refactoring the application, I made sure the security improvements were correct by rerunning OWASP Dependency-Check to confirm that vulnerabilities were reduced or resolved. I also tested the application functionality to ensure no new issues were introduced and confirmed that secure communication over HTTPS was working correctly.
+
+**Linked Artifacts**
+- Practices for Secure Software Report 
+- Dependency-Check Reports (Before & After) 
+- Refactored Source Code
 
 ## CS-320 – Software Testing & Quality Assurance
 
